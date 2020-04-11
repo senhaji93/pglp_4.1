@@ -6,6 +6,7 @@ import java.util.ArrayList;
 /**
  * appel à la classe Personnel.
  */
+
 public final class App {
 	/**
 	 * constructeur de la classe App.
@@ -40,6 +41,7 @@ public final class App {
         AfficheParGroupe apg = new AfficheParGroupe();
         apg.parcoursLargeur(c1);
         apg.print();
+
         System.out.println("\n\nParcours en profondeur : ");
         c1.print();
     }

@@ -35,14 +35,15 @@ public final class Personnel implements InterfacePersonnels {
 		 * prenom de la personne.
 		 */
 		private final String prenom;
-		/**
-		 * date de naissance de la personne.
-		 */
-		private final java.time.LocalDate dateNaissance;
+		
 		/**
 		 * liste des numéros de téléphone de la personne.
 		 */
 		private final ArrayList<String> numeroTelephone;
+/**
+		 * date de naissance de la personne.
+		 */
+		private final java.time.LocalDate dateNaissance; 
 		/**
 		 * constructeur pour la classe Builder.
 		 * @param nomP nom de la personne
@@ -66,6 +67,8 @@ public final class Personnel implements InterfacePersonnels {
 		public Personnel build() {
 			return new Personnel(this);
 		}
+
+
 	}
 	/**
 	 * construit le personnel avec le builder.

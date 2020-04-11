@@ -40,6 +40,7 @@ public class AfficheParGroupe implements Iterable<InterfacePersonnels> {
 				}
 			}
 		}
+
 	}
 	/**
 	 * retourne un itérateur sur la liste généré par le parcours.

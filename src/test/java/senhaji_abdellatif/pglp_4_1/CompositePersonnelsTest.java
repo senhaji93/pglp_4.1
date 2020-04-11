@@ -19,10 +19,12 @@ public class CompositePersonnelsTest {
 		Iterator<InterfacePersonnels> ip = cp.iterator();
 		assertFalse(ip.hasNext());
 	}
+
 	@Test
 	/**
 	 * teste l'ajout de personnel.
 	 */
+
 	public void testAjout() {
 		CompositePersonnels cp = new CompositePersonnels();
 		cp.add(new CompositePersonnels());
@@ -33,6 +35,7 @@ public class CompositePersonnelsTest {
 	/**
 	 * teste la suppression de personnel.
 	 */
+
 	public void testSuppression() {
 		CompositePersonnels cp = new CompositePersonnels();
 		CompositePersonnels cp2 = new CompositePersonnels();
